@@ -110,6 +110,32 @@
   .certs a:hover {
     background-color: var(--peach);
   }
+
+  /* 📄 Resume Section Styled like Certificates */
+.resume {
+  background-color: var(--blush);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv a {
+  background-color: var(--peach);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  color: var(--charcoal);
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cv a:hover {
+  background-color: var(--peach);
+}
+
   
   footer {
     background-color: var(--sage);
